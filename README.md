@@ -1,2 +1,3 @@
 # tensorflow-math-tools
-Some math 
+Some math tools for tensorflow
+1.
