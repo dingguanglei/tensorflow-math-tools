@@ -29,10 +29,10 @@ def reduce_Person(y_real, y_predict):
     return c
 
 
-
 # sess=tf.Session()
 #
-# print(sess.run(reduce_MAE(y1,y3)))# 1.5
-# print(sess.run(tf.multiply(y1,y2)))
-# print(sess.run(reduce_Person(y1, y3))) # [1.5, 1.5]
-# print(sess.run(tf.reduce_mean(x, 1))) #[1.,  2.]
+# print(sess.run(reduce_MAE(y1,y3)))#4.0
+# print(sess.run(reduce_MAPE(y1,y2)))# 1.5
+# print(sess.run(reduce_MAPE(y1,y3)))# 1.5
+# print(sess.run(reduce_Person(y1, y2)))  #
+# print(sess.run(reduce_Person(y1, y3))) #
