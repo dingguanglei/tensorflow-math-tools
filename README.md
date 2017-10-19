@@ -1,5 +1,3 @@
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?c </script>
-
 # tensorflow-math-tools
 常用函数集合
 ## 评估函数类
