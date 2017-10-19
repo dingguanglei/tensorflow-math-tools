@@ -19,7 +19,7 @@ def reduce_MAE(y_real, y_predict):
     c = tf.reduce_mean(a)
     return c
 
-def reduce_Person(y_real, y_predict):
+def reduce_Pearson(y_real, y_predict):
     y_real_mean = tf.fill(y_real.shape, tf.reduce_mean(y_real))
     y_predict_mean = tf.fill(y_predict.shape, tf.reduce_mean(y_predict))
     fenzi = tf.reduce_sum(tf.multiply(y_real - y_real_mean, y_predict - y_predict_mean))
