@@ -58,9 +58,9 @@ import my_tensorflow_operation as mytf
 y1 = np.array([1., 2., 3., 4., 5., 6., 7.])
 y2 = np.array([1.2, 2.2, 3.2, 4.2, 5.1, 6.3, 7.2])
 y3 = np.array([2., 4., 6., 8., 10., 12., 14.])
-person12=mytf.reduce_MAPE(y1,y2)
-person13=mytf.reduce_MAPE(y1,y3)
+pearson12=mytf.reduce_Pearson(y1,y2)
+pearson13=mytf.reduce_Pearson(y1,y3)
 sess=tf.Session()
-print(sess.run(person12))  #==>0.999651908638
-print(sess.run(person13))  #==>1.0
+print(sess.run(pearson12))  #==>0.999651908638
+print(sess.run(pearson13))  #==>1.0
 ```
