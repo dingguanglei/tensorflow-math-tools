@@ -31,8 +31,8 @@ def reduce_Person(y_real, y_predict):
 
 # sess=tf.Session()
 #
-# print(sess.run(reduce_MAE(y1,y3)))#4.0
-# print(sess.run(reduce_MAPE(y1,y2)))# 1.5
-# print(sess.run(reduce_MAPE(y1,y3)))# 1.5
-# print(sess.run(reduce_Person(y1, y2)))  #
-# print(sess.run(reduce_Person(y1, y3))) #
+# print(sess.run(reduce_MAE(y1,y3))) # 4.0
+# print(sess.run(reduce_MAPE(y1,y2)))# 0.0736054421769
+# print(sess.run(reduce_MAPE(y1,y3)))# 1.0
+# print(sess.run(reduce_Person(y1, y2))) # 0.999651908638
+# print(sess.run(reduce_Person(y1, y3))) # 1.0
